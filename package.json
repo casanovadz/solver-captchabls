@@ -1,7 +1,7 @@
 {
   "name": "bls-captcha-solver",
   "version": "1.0.0",
-  "description": "CAPTCHA solving server for BLS Spain website",
+  "description": "CAPTCHA solving server for BLS Spain - Localhost Mode",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -9,14 +9,9 @@
   },
   "dependencies": {
     "express": "^4.18.2",
-    "cors": "^2.8.5",
-    "axios": "^1.6.0",
-    "dotenv": "^16.3.1"
+    "cors": "^2.8.5"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
-  },
-  "keywords": ["captcha", "recaptcha", "bls", "spain", "solver"],
-  "author": "Custom",
-  "license": "MIT"
+  }
 }
